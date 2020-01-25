@@ -19,9 +19,11 @@ const createProjectCards = () => {
     let domString = '';
     for (project in projects) {
         if (projects[project].available) {
-            domString += `<div class="project-cards">`;
-            domString +=    `<h1 class="project-title">${projects[project].title}</h1>`;
-            domString += `</div>`;  
+            domString += `
+            <div class="project-cards">
+                <h1 class="project-title">${projects[project].title}</h1>
+            </div>
+            `;  
         }
     }
     printToDom('projectsPage', domString);   
