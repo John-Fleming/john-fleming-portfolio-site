@@ -1,6 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPANqczVs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* BODY STYLES */
+
 body {
-    background-color: black;
-    color: white;
-    font-family: cursive;
-    text-align: center;
+  background-color: rgb(32,30,36);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* NAME HEADER */
+
+.full-name-header {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: .2em;
+  font-size: 4em;
+  margin-top: 10%;
+}
+
+/* NAV BAR */
+
+nav {
+  margin: 20px 0;
+}
+
+#navLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 25%;
+  color: rgb(73, 116, 131);
+  font-size: 1.2em;
+}
+
+/* MAIN */
+
+main {
+  margin: 20px 0;
+}
+
+#technologiesPage {
+  margin: 20px 0;
+}
+
+.technologies-list {
+  list-style-type: none;
+  color: rgb(73, 116, 131);
+}
+
+/* FOOTER */
+
+footer {
+  margin: 20px 0;
+}
+
+.contact-me-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me-links li {
+  margin-right: 10px;
+}
+
+.contact-me-links img {
+  width: 40px;
 }
