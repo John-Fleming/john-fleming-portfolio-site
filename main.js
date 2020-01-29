@@ -13,29 +13,27 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
-const createProjectCards = () => {
+const createProjectCards = (arr) => {
     let domString = '';
-    for (project in projects) {
-        if (projects[project].available) {
-            domString += `
-            <div class="project-cards">
-                <img class="project-screenshot" src=${projects[project].screenshot} alt="screenshot of ${projects[project].title}">
-                <h1 class="project-title">${projects[project].title}</h1>
-                <h3 class="technologies-used">${projects[project].technologiesUsed}</h3>
-                <p class="project-description">${projects[project].description}</p>
-                <div class="view-project-buttons">
-                    <button class="project-Url-button"><a href=${projects[project].url}>View Project</a></button>
-                    <button class="github-Url-button"><a href=${projects[project].githubUrl}>View Project on GitHub</a></button>
-                </div>
-            </div>
-            `;  
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].available) {
+            domString += `<div class="project-cards">`
+            domString +=     `<img class="project-screenshot" src=${arr[i].screenshot} alt="screenshot of ${arr[i].title}">`
+            domString +=     `<h1 class="project-title">${arr[i].title}</h1>`
+            domString +=     `<h3 class="technologies-used">${arr[i].technologiesUsed}</h3>`
+            domString +=     `<p class="project-description">${arr[i].description}</p>`
+            domString +=     `<div class="view-project-buttons">`
+            domString +=         `<button class="project-Url-button"><a href=${arr[i].url}>View Project</a></button>`
+            domString +=        `<button class="github-Url-button"><a href=${arr[i].githubUrl}>View Project on GitHub</a></button>`
+            domString +=     `</div>`
+            domString += `</div>`;  
         }
     }
     printToDom('projectsPage', domString);   
 };
 
 const init = () => {
-    createProjectCards();
+    createProjectCards(projects);
 }; 
 
 init();
