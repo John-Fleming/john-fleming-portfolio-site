@@ -24,8 +24,8 @@ const createProjectCards = () => {
                 <h3 class="technologies-used">${projects[project].technologiesUsed}</h3>
                 <p class="project-description">${projects[project].description}</p>
                 <div class="view-project-buttons">
-                    <button class="project-Url-button><a href=${projects[project].url}>View Project</a></button>
-                    <button class="github-Url-button><a href=${projects[project].githubUrl}>View Project on GitHub</a></button>
+                    <button class="project-Url-button"><a href=${projects[project].url}>View Project</a></button>
+                    <button class="github-Url-button"><a href=${projects[project].githubUrl}>View Project on GitHub</a></button>
                 </div>
             </div>
             `;  
