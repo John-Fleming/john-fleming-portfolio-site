@@ -38,19 +38,17 @@ body {
 /* NAV BAR */
 
 nav {
-  margin-top: 20px;
+  margin-top: 3%;
 }
 
-#navLinks {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
+#navLinks a {
+  margin-left: 30px;
   color: rgb(73, 116, 131);
   font-size: 1.2em;
 }
 
-#navLinks li {
-  margin-left: 30px;
+.navbar-toggler-icon {
+  color: rgb(73, 116, 131);
 }
 
 /* NAME HEADER */
@@ -112,5 +110,5 @@ footer {
 }
 
 .contact-me-links img {
-  width: 35px;
+  width: 1.8em;
 }
