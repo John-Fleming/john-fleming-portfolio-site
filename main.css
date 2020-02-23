@@ -73,12 +73,16 @@ nav {
 
 /* TECHNOLOGIES */
 
-.technologies-intro {
+/* .technologies-intro {
   padding: 10% 0 30%;
 }
 
 .technologies-list-container {
   padding: 30% 0 10%;
+} */
+
+#technologiesPage h3 {
+  color: rgb(73, 116, 131);
 }
 
 .technologies-list {
