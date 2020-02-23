@@ -23,7 +23,7 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
-const createProjectCards = (arr) => {
+const printProjects = (arr) => {
     let domString = '';
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].available && arr[i] === arr[0]) {
@@ -66,7 +66,7 @@ const createProjectCards = (arr) => {
 };
 
 const init = () => {
-    createProjectCards(projects);
+    printProjects(projects);
 }; 
 
 init();
