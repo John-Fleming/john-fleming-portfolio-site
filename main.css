@@ -35,6 +35,12 @@ body {
   position: relative;
 }
 
+.breaker {
+  background-color: rgb(73, 116, 131);
+  max-width: 200px;
+  margin: 0 auto;
+}
+
 /* NAV BAR */
 
 nav {
@@ -56,7 +62,7 @@ nav {
 #greeting {
   text-align: center;
   letter-spacing: .4em;
-  padding: 10% 0 30%;
+  padding: 10% 0 20%;
 }
 
 .full-name-header {
@@ -65,20 +71,20 @@ nav {
   margin-top: 10%;
 }
 
-/* BIO */
+/* BIO SECTION */
 
 #bioPage {
-  padding: 10% 0 30%;
+  padding: 10% 0 25%;
 }
 
-/* TECHNOLOGIES */
+/* TECHNOLOGIES SECTION */
 
-.technologies-intro {
-  padding: 10% 0 30%;
+#technologiesPage h3 {
+  color: rgb(73, 116, 131);
 }
 
-.technologies-list-container {
-  padding: 30% 0 10%;
+.technologies-intro, .technologies-icon, .technologies-list-container {
+  padding: 8% 0;
 }
 
 .technologies-list {
@@ -87,10 +93,14 @@ nav {
   font-size: 1.6em;
 }
 
-/* PROJECTS */
+.john-headshot {
+  border-radius: 50%;
+}
+
+/* PROJECTS SECTION */
 
 .project-screenshot {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -106,7 +116,7 @@ nav {
 
 footer {
   font-family: 'Raleway', sans-serif;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .contact-me-links img {
