@@ -7,16 +7,16 @@ The project features vanilla HTML, CSS, and Javascript, but also makes use of Bo
 
 ## Screenshots
 Home screen
-![home page view](./Screenshots/home-view.png)
+![home section view](./screenshots/home-view.png)
 
 Bio section
-![home page view](./Screenshots/bio-view.png)
+![bio section view](./screenshots/bio-view.png)
 
 Technologies screen
-![home page view](./Screenshots/technologies-view.png)
+![technologies section view](./screenshots/technologies-view.png)
 
 Projects carousel
-![home page view](./Screenshots/project-carousel.png)
+![projects section view](./screenshots/project-carousel.png)
 
 ## How to Run
 1. Clone this repo
