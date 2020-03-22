@@ -1,0 +1,19 @@
+@import '../../../styles/colors.scss';
+
+#greeting {
+  text-align: center;
+  letter-spacing: .4em;
+  .greeting-content {
+    position: absolute;
+    top: 30%;
+    .full-name-header {
+      font-weight: 300;
+      font-size: 4em;
+    }    
+  }
+  #scroll-indicator-icon {
+    position: absolute;
+    bottom: 20px;
+    color: $green;
+  }
+}

@@ -1,6 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '../javascripts/components/navbar/navbar.scss';
+@import '../javascripts/components/greeting/greeting.scss';
+@import '../javascripts/components/bio/bio.scss';
+@import '../javascripts/components/technologies/technologies.scss';
 @import '../javascripts/components/projects/projects.scss';
+@import './colors.scss';
+@import './fonts.scss';
 
 
 * {
@@ -8,90 +14,45 @@
   padding: 0;
 }
 
-/* FONTS */
-
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPANqczVs.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 /* BODY STYLES */
 
 body {
-  background-color: rgb(32,30,36);
+  background-color: $dark;
   color: white;
   font-family: 'Raleway', sans-serif;
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  #greeting, #bioPage, #technologiesPage, #projectsPage {
+    height: 100vh;
+    position: relative;
+  }
 }
 
 .breaker {
-  background-color: rgb(73, 116, 131);
+  background-color: $green;
   max-width: 25%;
   margin: 0 auto;
 }
 
-/* NAV BAR */
-
-nav {
-  margin-top: 3%;
-}
-
-#navLinks a {
-  margin-left: 30px;
-  color: rgb(73, 116, 131);
-  font-size: 1.2em;
-}
-
-.navbar-toggler-icon {
-  color: rgb(73, 116, 131);
-}
-
-/* NAME HEADER */
-
-#greeting {
-  text-align: center;
-  letter-spacing: .4em;
-  // padding: 10% 0 20%;
-  height: 100vh;
-  padding-top: 25%;
-}
-
-.full-name-header {
-  font-weight: 300;
-  font-size: 4em;
-}
-
 /* BIO SECTION */
 
-#bioPage {
-  padding: 10% 0 25%;
-}
+// #bioPage {
+//   .bio-content {
+//   padding-top: 10%;
+//   }
+// }
 
 /* TECHNOLOGIES SECTION */
 
 #technologiesPage {
-  height: 100vh;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 #technologiesPage h3 {
-  color: rgb(73, 116, 131);
+  color: $green;
 }
 
 .technologies-intro, .technologies-icon, .technologies-list-container {
@@ -100,28 +61,13 @@ nav {
 
 .technologies-list {
   list-style-type: none;
-  color: rgb(73, 116, 131);
+  color: $green;
   font-size: 1.6em;
 }
 
 .john-headshot {
   border-radius: 50%;
 }
-
-/* PROJECTS SECTION */
-
-// .project-screenshot {
-//   max-width: 800px;
-//   margin: 0 auto;
-// }
-
-// .project-screenshot img {
-//   width: 100%;
-// }
-
-// .project-description {
-//   font-size: 1.2em;
-// }
 
 /* FOOTER */
 
