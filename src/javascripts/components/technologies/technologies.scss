@@ -1,0 +1,19 @@
+@import '../../../styles/colors.scss';
+
+#technologiesPage {
+  padding-top: 5%;
+}
+
+#technologiesPage h3 {
+  color: $green;
+}
+
+.technologies-intro, .technologies-icon, .technologies-list-container {
+  padding: 8% 0;
+}
+
+.technologies-list {
+  list-style-type: none;
+  color: $green;
+  font-size: 1.6em;
+}
