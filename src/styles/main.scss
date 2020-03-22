@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '../javascripts/components/projects/projects.scss';
 
 
 * {
@@ -41,7 +42,7 @@ body {
 
 .breaker {
   background-color: rgb(73, 116, 131);
-  max-width: 200px;
+  max-width: 25%;
   margin: 0 auto;
 }
 
@@ -66,13 +67,14 @@ nav {
 #greeting {
   text-align: center;
   letter-spacing: .4em;
-  padding: 10% 0 20%;
+  // padding: 10% 0 20%;
+  height: 100vh;
+  padding-top: 25%;
 }
 
 .full-name-header {
   font-weight: 300;
   font-size: 4em;
-  margin-top: 10%;
 }
 
 /* BIO SECTION */
@@ -82,6 +84,11 @@ nav {
 }
 
 /* TECHNOLOGIES SECTION */
+
+#technologiesPage {
+  height: 100vh;
+  padding-top: 15%;
+}
 
 #technologiesPage h3 {
   color: rgb(73, 116, 131);
@@ -103,18 +110,18 @@ nav {
 
 /* PROJECTS SECTION */
 
-.project-screenshot {
-  max-width: 800px;
-  margin: 0 auto;
-}
+// .project-screenshot {
+//   max-width: 800px;
+//   margin: 0 auto;
+// }
 
-.project-screenshot img {
-  width: 100%;
-}
+// .project-screenshot img {
+//   width: 100%;
+// }
 
-.project-description {
-  font-size: 1.2em;
-}
+// .project-description {
+//   font-size: 1.2em;
+// }
 
 /* FOOTER */
 
