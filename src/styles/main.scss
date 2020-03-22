@@ -1,3 +1,7 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +33,7 @@ body {
   background-color: rgb(32,30,36);
   color: white;
   font-family: 'Raleway', sans-serif;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
