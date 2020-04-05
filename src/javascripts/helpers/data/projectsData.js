@@ -1,6 +1,7 @@
 const projects = [{
   title: 'Chatty App',
   screenshot: './assets/chatty_screenshot.png',
+  // eslint-disable-next-line max-len
   description: 'The chatty app is a messaging app I contributed to for a group project at NSS. It allows a user to select who is sending a message, submit a new message, and perform specific actions such as liking and disliking messages, deleting messages, and selecting app styles.',
   technologiesUsed: 'HTML, CSS, Sass, Bootstrap, JavaScript, jQuery',
   available: true,
@@ -10,6 +11,7 @@ const projects = [{
 {
   title: 'Tamagotchi',
   screenshot: './assets/tamagotchi_screenshot.png',
+  // eslint-disable-next-line max-len
   description: 'Modelled after the 90\'s Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the scores calculating when clicking buttons in each displayed quadrant.',
   technologiesUsed: 'HTML, CSS, Sass, JavaScript, jQuery',
   available: true,
