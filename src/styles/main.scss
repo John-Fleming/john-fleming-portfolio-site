@@ -29,21 +29,23 @@ body {
     height: 100vh;
     position: relative;
   }
+
+  #cta {
+    height: 50vh;
+    position: relative;
+    padding: 5% 0;
+    h3 {
+      font-size: 2.5em;
+      letter-spacing: .1em;
+    }
+    .contact-me-links img {
+      width: 2em;
+    }
+    .breaker {
+      border-top: 2px solid $green;
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
 }
 
-.breaker {
-  background-color: $green;
-  max-width: 25%;
-  margin: 0 auto;
-}
-
-/* FOOTER */
-
-footer {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 5%;
-}
-
-.contact-me-links img {
-  width: 1.8em;
-}

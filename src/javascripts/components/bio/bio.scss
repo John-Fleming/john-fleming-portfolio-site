@@ -2,7 +2,11 @@
 
 #bioPage {
   .bio-content {
-  padding-top: 10%;
+    position: absolute;
+    top: 10%;
+  }
+  p {
+    font-size: 1.2em;
   }
   .john-headshot {
     border-radius: 50%;

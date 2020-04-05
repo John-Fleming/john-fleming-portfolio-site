@@ -1,4 +1,5 @@
 @import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
 
 #greeting {
   text-align: center;
@@ -9,7 +10,7 @@
     .full-name-header {
       font-weight: 300;
       font-size: 4em;
-    }    
+    }
   }
   #scroll-indicator-icon {
     position: absolute;
