@@ -1,11 +1,11 @@
 {
   "project1" : {
     "title": "Chatty App",
-    "screenshot": "./assets/chatty_screenshot.png",
+    "screenshot": "./assets/chatty-app-screenshot.png",
     "description": "The chatty app is a messaging app I contributed to for a group project at NSS. It allows a user to select who is sending a message, submit a new message, and perform specific actions such as liking and disliking messages, deleting messages, and selecting app styles.",
     "technologiesUsed": "HTML, CSS, Bootstrap, Sass, JavaScript, jQuery",
     "available": true,
-    "url": "",
+    "url": "https://chatty-app-5a503.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/chatty-venus-fly-traps"
   },
   "project2" : {
@@ -14,16 +14,16 @@
     "description": "I built this Pinterest clone for an NSS class assignment in order to practice making Axios API calls to Firebase. Users first login using their Google accounts and then can create, delete, and update boards with individual pins related to their interests.",
     "technologiesUsed": "HTML, CSS, Bootstrap, Sass, JavaScript, jQuery, Axios, Firebase",
     "available": true,
-    "url": "",
+    "url": "https://pinterest-clone-9f284.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/pinterest-clone"
   },
   "project3" : {
     "title": "Tamagotchi",
-    "screenshot": "./assets/tamagotchi_screenshot.png",
+    "screenshot": "./assets/tamagotchi-screenshot.png",
     "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the scores calculating when clicking buttons in each displayed quadrant.",
     "technologiesUsed": "HTML, CSS, Sass, JavaScript, jQuery",
     "available": true,
-    "url": "",
+    "url": "https://tamagotchi-ee100.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/tamagotchi"
   },
   "project4" : {
