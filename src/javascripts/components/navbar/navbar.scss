@@ -6,6 +6,12 @@ nav {
     width: 85%;
     padding: 1% 0;
   }
+  .navbar-toggler {
+    border: none;
+    .nav-hamburger {
+      color: $green;
+    }
+  }
   a {
     margin-left: 30px;
     color: $green;

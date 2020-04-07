@@ -1,4 +1,6 @@
 @import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
 
 #technologiesPage {
   .technologies-content {
@@ -6,8 +8,7 @@
     top: 10%;
   }
   h3 {
-  font-size: 2.5em;
-  letter-spacing: .1em;
+    @extend %subheader
   }
   .tech-icons {
   font-size: 4em;

@@ -1,7 +1,10 @@
 @import '../../../styles/colors.scss';
 
-#projects-carousel {
-  padding-top: 10%;
+.projects-heading {
+  padding-top: 6%;
+  h3 {
+    @extend %subheader
+  }
 }
 
 .project-screenshot {
