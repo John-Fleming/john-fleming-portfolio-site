@@ -8,10 +8,10 @@ const printProjects = () => {
       const firstAvailableProject = projects.find((x) => x.available);
       let domString = '';
       projects.forEach((project) => {
-        domString += `<div class="row carousel-item container-fluid ${project === firstAvailableProject ? 'active' : ''}">`;
+        domString += `<div class="carousel-item container-fluid ${project === firstAvailableProject ? 'active' : ''}">`;
         domString += '<div class="project-cards text-center col-sm-12">';
         domString += '<div class="project-screenshot">';
-        domString += `<img src="${project.screenshot}" alt="screenshot of ${project.title}">`;
+        domString += `<img class="img-fluid" src="${project.screenshot}" alt="screenshot of ${project.title}">`;
         domString += '</div>';
         domString += '<div class="project-info mt-2">';
         domString += `<h2 class="project-title">${project.title}</h2>`;
