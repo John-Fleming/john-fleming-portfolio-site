@@ -6,15 +6,22 @@ nav {
     width: 85%;
     padding: 1% 0;
   }
+
   .navbar-toggler {
     border: none;
     .nav-hamburger {
       color: $green;
     }
   }
+
   a {
     margin-left: 30px;
     color: $green;
     font-size: 1.2em;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: none;
   }
 }

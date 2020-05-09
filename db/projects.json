@@ -20,7 +20,7 @@
   "project3" : {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/qWpEYfN.png",
-    "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the scores calculating when clicking buttons in each displayed quadrant.",
+    "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the calculated scores when clicking buttons in each displayed quadrant.",
     "technologiesUsed": "HTML, CSS, Sass, JavaScript, jQuery",
     "available": true,
     "url": "https://tamagotchi-ee100.firebaseapp.com",
