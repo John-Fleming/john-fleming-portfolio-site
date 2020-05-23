@@ -31,10 +31,11 @@ body {
   }
 
   #cta {
-    height: 50vh;
+    // height: 50vh;
+    padding: 150px 0;
     position: relative;
     h3 {
-      margin-top: 35%;
+      // margin-top: 35%;
       font-size: 2.5em;
       letter-spacing: .1em;
     }
@@ -49,3 +50,29 @@ body {
   }
 }
 
+/* BUTTON STYLES */
+
+.my-button {
+  background-color: $dark;
+  color: white;
+  border: 3px solid $green;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  padding: 10px 20px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.hover-state {
+  background-color: $green;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  .grow:hover { 
+  transform: scale(1.2); 
+  }

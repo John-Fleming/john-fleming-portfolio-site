@@ -36,18 +36,25 @@
           <h5 class="greeting-sub-header">Full Stack Developer</h5>  
         </div>
         <div class="scroll d-flex justify-content-center">
-          <i id="scroll-indicator-icon" class="fas fa-angle-down fa-3x"></i>
+          <i id="scroll-indicator-icon" class="fas fa-angle-down fa-3x grow"></i>
         </div>
       </section>
 
       <!-- Bio Section -->
 
-      <section id="bioPage" class="text-center">
+      <section id="bioPage">
         <div class="container-fluid bio-content">
-          <h3 class="mb-5">Hi! My name's John.</h3>
-          <p>I'm a student at Nashville Software School studying to become a full stack developer. I currently manage a team of client success managers and I'm making the leap to software engineering so I can help build the technology that solves daily challenges on the business side.</p>
-          <h3 class="my-5">Enjoy my site!</h3>
-          <img class="john-headshot img-fluid" src="../assets/john_fleming_icon.png" alt="Headshot of John Fleming">
+          <div class="row">
+            <div class="col-8 text-left">
+              <h2 class="mb-4">Hi! I'm John.</h2>
+              <p>I'm an aspiring developer currently in the full stack program at Nashville Software School. In my day job, I manage a client success team at marketing company in the tech industry, but I'm making the leap to software engineering so I can do more of the hands on work creating awesome user interfaces and solving problems through technology.</p>
+              <p class="collapse my-5" id="extended-bio-detail">Throughout my career, I've had the opportunity to work around other software engineers in a variety of settings. I've held roles in healthcare project management related to website design and natural language processing initiatives through machine learning, as well as a sales role at a custom software development agency. I started to get more hands on experience with technology when I assumed product ownership responsibility as the Volunteer Manager and Salesforce Administrator at Habitat for Humanity of Greater Nashville. <br><br>With each opportunity and now in my current role within client success, I got to see first hand just how valuable the software engineers were in building creative solutions to challenges my teams experienced. I wanted to be a part of that solution and after 6 months of self-study, I was hooked! I decided to officially apply to Nashville Software School to help me stay focused on my goal. Checkout out some of the projects I had the opportunity to work on in my portfolio below.</p>
+              <button class="bio-button my-button grow" type="button" data-toggle="collapse" data-target="#extended-bio-detail" aria-expanded="false" aria-controls="extended-bio-detail">Learn More</button>
+            </div>
+            <div class="col-4" id="headshot-container">
+              <img class="john-headshot img-fluid" src="../assets/john_fleming_headshot.png" alt="Headshot of John Fleming">
+            </div>
+          </div>
         </div>
       </section>
 
@@ -123,9 +130,9 @@
           <h3 class="cta">Connect With Me</h3>
           <hr class="breaker my-3">
           <ul class="contact-me-links list-inline d-flex justify-content-center mb-1">
-            <li><a class="email-link list-inline-item mx-1" href="mailto:johndeclanfleming@gmail.com"><img src="../assets/iconfinder_gmail_1220340.png" alt="a gmail icon linking to John's email"></a></li>
-            <li><a class="linkedin-link list-inline-item mx-1" href="https://github.com/John-Fleming"><img src="../assets/iconfinder_Github_1298743.png" alt="a github icon linking to John's github"></a></li>
-            <li><a class="github-link list-inline-item mx-1" href="https://www.linkedin.com/in/john-fleming-8b730262/"><img src="../assets/iconfinder_linkedin_287553.png" alt="a linkedin icon linking to John's linkedin"></a></li>
+            <li><a class="email-link list-inline-item mx-1" href="mailto:johndeclanfleming@gmail.com"><img class="grow" src="../assets/iconfinder_gmail_1220340.png" alt="a gmail icon linking to John's email"></a></li>
+            <li><a class="linkedin-link list-inline-item mx-1" href="https://github.com/John-Fleming"><img class="grow" src="../assets/iconfinder_Github_1298743.png" alt="a github icon linking to John's github"></a></li>
+            <li><a class="github-link list-inline-item mx-1" href="https://www.linkedin.com/in/john-fleming-8b730262/"><img class="grow" src="../assets/iconfinder_linkedin_287553.png" alt="a linkedin icon linking to John's linkedin"></a></li>
           </ul>
           <hr class="breaker my-3">
         </div>

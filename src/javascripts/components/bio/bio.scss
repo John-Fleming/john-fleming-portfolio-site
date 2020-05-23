@@ -3,12 +3,18 @@
 #bioPage {
   .bio-content {
     position: absolute;
-    top: 10%;
+    top: 20%;
   }
   p {
     font-size: 1.2em;
   }
+  #headshot-container {
+    display: flex;
+    justify-content: center;
+  }
   .john-headshot {
     border-radius: 50%;
+    align-self: center;
+    width: 60%;
   }
 }

@@ -27,8 +27,8 @@ const printProjects = () => {
         domString += `<h5 class="technologies-used">${project.technologiesUsed}</h5>`;
         domString += `<p class="project-description my-4">${project.description}</p>`;
         domString += '<div class="project-btns">';
-        domString += `<button class="project-Url-button my-button btn mt-1 mx-1"><a href=${project.url} target="_blank">Demo</a></button>`;
-        domString += `<button class="github-Url-button my-button btn mt-1 mx-1"><a href=${project.githubUrl} target="_blank">GitHub</a></button>`;
+        domString += `<button class="project-Url-button my-button mt-1 mx-1"><a href=${project.url} target="_blank">Demo</a></button>`;
+        domString += `<button class="github-Url-button my-button mt-1 mx-1"><a href=${project.githubUrl} target="_blank">GitHub</a></button>`;
         domString += '</div>';
         domString += '</div>';
         domString += '</div>';
