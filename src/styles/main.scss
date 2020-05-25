@@ -17,12 +17,9 @@
 /* BODY STYLES */
 
 body {
-  background-color: $dark;
+  // background-color: $dark;
   color: white;
   font-family: 'Raleway', sans-serif;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
 
   #greeting, #bioPage, #technologiesPage, #projectsPage {
@@ -30,12 +27,15 @@ body {
     position: relative;
   }
 
+  .center-content {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  } 
+
   #cta {
-    // height: 50vh;
     padding: 150px 0;
     position: relative;
     h3 {
-      // margin-top: 35%;
       font-size: 2.5em;
       letter-spacing: .1em;
     }
@@ -48,6 +48,23 @@ body {
       margin: 0 auto;
     }
   }
+}
+
+/* BACKGROUND COLORS */
+
+// #greeting, #technologiesPage, #cta {
+//   background-color: $dark;
+// }
+
+// #bioPage, #projectsPage {
+//   background-color: rebeccapurple;
+// }
+#greeting, #technologiesPage, #cta {
+  background-color: $dark;
+}
+
+#bioPage, #projectsPage {
+  background-color: $off-dark;
 }
 
 /* BUTTON STYLES */

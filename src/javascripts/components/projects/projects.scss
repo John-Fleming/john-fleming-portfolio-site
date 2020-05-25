@@ -1,5 +1,9 @@
 @import '../../../styles/colors.scss';
 
+#projectsPage {
+  overflow: scroll;
+}
+
 .projects-heading {
   padding-top: 6%;
   h3 {

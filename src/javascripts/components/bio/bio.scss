@@ -4,9 +4,14 @@
   .bio-content {
     position: absolute;
     top: 20%;
+    display: block;
   }
   p {
     font-size: 1.2em;
+  }
+  #bio-detail {
+    height: 75vh;
+    overflow: scroll;
   }
   #headshot-container {
     display: flex;

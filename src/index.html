@@ -31,12 +31,11 @@
       <!-- Greeting Section -->
 
       <section id="greeting">
-        <div class="container-fluid greeting-content">
+        <div class="container-fluid greeting-content center-content">
           <h1 class="full-name-header">John Fleming</h1>
           <h5 class="greeting-sub-header">Full Stack Developer</h5>  
         </div>
-        <div class="d-flex justify-content-around">
-        <!-- <div class="container-fluid"> -->
+        <div class="d-flex justify-content-center">
           <img id="scroll-indicator-icon" src="../assets/down-arrow.png"/>
         </div>
       </section>
@@ -44,9 +43,9 @@
       <!-- Bio Section -->
 
       <section id="bioPage">
-        <div class="container-fluid bio-content">
+        <div class="container-fluid bio-content center-content">
           <div class="row">
-            <div class="col-md-8 text-left">
+            <div id="bio-detail" class="col-md-8 text-left">
               <h2 class="mb-4">Hi! I'm John.</h2>
               <p>I'm an aspiring developer currently in the full stack program at Nashville Software School. In my day job, I manage a client success team at marketing company in the tech industry, but I'm making the leap to software engineering so I can do more of the hands on work creating awesome user interfaces and solving problems through technology.</p>
               <p class="collapse my-5" id="extended-bio-detail">Throughout my career, I've had the opportunity to work around other software engineers in a variety of settings. I've held roles in healthcare project management related to website design and natural language processing initiatives through machine learning, as well as a sales role at a custom software development agency. I started to get more hands on experience with technology when I assumed product ownership responsibility as the Volunteer Manager and Salesforce Administrator at Habitat for Humanity of Greater Nashville. <br><br>With each opportunity and now in my current role within client success, I got to see first hand just how valuable the software engineers were in building creative solutions to challenges my teams experienced. I wanted to be a part of that solution and after 6 months of self-study, I was hooked! I decided to officially apply to Nashville Software School to help me stay focused on my goal. Checkout out some of the projects I had the opportunity to work on in my portfolio below.</p>
@@ -62,7 +61,7 @@
       <!-- Technologies Seciton -->
 
       <section id="technologiesPage">
-        <div class="container-fluid technologies-content">
+        <div class="container-fluid technologies-content center-content">
           <div class="row mb-5">
             <div class="col-md-12 text-center technologies-intro">
               <h3>Skills & Experience</h3>
@@ -106,21 +105,23 @@
       <!-- Portfolio Section -->
 
       <section id="projectsPage">
-        <div class="text-center projects-heading">
-          <h3>Portfolio</h3>
-        </div>
-        <div id="projects-carousel" class="carousel slide my-5" data-ride="carousel" data-interval="4000">
-          <div id="projects" class="carousel-inner">
-    
+        <div class="container-fluid projects-content center-content">
+          <div class="text-center projects-heading">
+            <h3>Portfolio</h3>
           </div>
-          <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div id="projects-carousel" class="carousel slide my-5" data-ride="carousel" data-interval="4000">
+            <div id="projects" class="carousel-inner">
+      
+            </div>
+            <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </section>
 
