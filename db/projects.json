@@ -27,13 +27,13 @@
     "githubUrl": "https://github.com/John-Fleming/tamagotchi"
   },
   "project4" : {
-    "title": "Spotify2",
-    "screenshot": "https://i.imgur.com/UDZCTez.png",
-    "description": "A better Spotify!",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": false,
-    "url": "https://www.spotify.com/",
-    "githubUrl": "https://github.com/John-Fleming/personal-bio-site"
+    "title": "React Sports Roster",
+    "screenshot": "https://i.imgur.com/njbJJdv.png",
+    "description": "This project was the first application I built using React. It displays a roster of players associated with an authenticated user and allows the user to perform full CRUD. Go Astros!",
+    "technologiesUsed": "React, JSX, Axios, Firebase",
+    "available": true,
+    "url": "https://sports-roster-dd495.firebaseapp.com",
+    "githubUrl": "https://github.com/John-Fleming/sports-roster"
   },
   "project5" : {
     "title": "Spotify3",

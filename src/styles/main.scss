@@ -14,15 +14,14 @@
   padding: 0;
 }
 
-/* BODY STYLES */
+/* BODY STYLES & SPACING */
 
 body {
-  // background-color: $dark;
   color: white;
   font-family: 'Raleway', sans-serif;
   position: relative;
 
-  #greeting, #bioPage, #technologiesPage, #projectsPage {
+  #greeting, #bioPage, #technologiesPage {
     height: 100vh;
     position: relative;
   }
@@ -31,40 +30,17 @@ body {
     padding-left: 7.5%;
     padding-right: 7.5%;
   } 
-
-  #cta {
-    padding: 150px 0;
-    position: relative;
-    h3 {
-      font-size: 2.5em;
-      letter-spacing: .1em;
-    }
-    .contact-me-links img {
-      width: 2em;
-    }
-    .breaker {
-      border-top: 2px solid $green;
-      width: 40%;
-      margin: 0 auto;
-    }
-  }
 }
 
 /* BACKGROUND COLORS */
 
-// #greeting, #technologiesPage, #cta {
-//   background-color: $dark;
-// }
-
-// #bioPage, #projectsPage {
-//   background-color: rebeccapurple;
-// }
 #greeting, #technologiesPage, #cta {
   background-color: $dark;
 }
 
 #bioPage, #projectsPage {
-  background-color: $off-dark;
+  // background-color: $off-dark;
+  background-color: $green;
 }
 
 /* BUTTON STYLES */
@@ -84,7 +60,8 @@ body {
 }
 
 .hover-state {
-  background-color: $green;
+  // background-color: $green;
+  background-color: $off-dark;
 }
 
 .grow { 
@@ -93,3 +70,24 @@ body {
   .grow:hover { 
   transform: scale(1.2); 
   }
+
+/* CTA SECTION */ 
+
+#cta {
+  padding: 250px 0;
+  position: relative;
+  h3 {
+    font-size: 2.5em;
+    letter-spacing: .1em;
+  }
+  .contact-me-links img {
+    width: 2em;
+  }
+  .breaker {
+    border-top: 2px solid $green;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+
