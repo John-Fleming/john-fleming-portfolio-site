@@ -1,6 +1,15 @@
 import utils from '../../helpers/utils';
 import projectData from '../../helpers/data/projectsData';
-// import chatty from
+
+const buttonHoverEvent = (e) => {
+  const targetedButton = e.target.closest('button');
+  $(targetedButton).addClass('hover-state');
+};
+
+const buttonHoverExitEvent = (e) => {
+  const targetedButton = e.target.closest('button');
+  $(targetedButton).removeClass('hover-state');
+};
 
 const printProjects = () => {
   projectData.getProjects()
@@ -18,14 +27,16 @@ const printProjects = () => {
         domString += `<h5 class="technologies-used">${project.technologiesUsed}</h5>`;
         domString += `<p class="project-description my-4">${project.description}</p>`;
         domString += '<div class="project-btns">';
-        domString += `<button class="project-Url-button my-button btn mt-1 mx-1"><a class="text-white" href=${project.url} target="_blank">Demo</a></button>`;
-        domString += `<button class="github-Url-button my-button btn mt-1 mx-1"><a class="text-white" href=${project.githubUrl} target="_blank">GitHub</a></button>`;
+        domString += `<button class="project-Url-button my-button mt-1 mx-1"><a href=${project.url} target="_blank">Demo</a></button>`;
+        domString += `<button class="github-Url-button my-button mt-1 mx-1"><a href=${project.githubUrl} target="_blank">GitHub</a></button>`;
         domString += '</div>';
         domString += '</div>';
         domString += '</div>';
         domString += '</div>';
       });
       utils.printToDom('projects', domString);
+      $('body').on('mouseenter', '.my-button', buttonHoverEvent);
+      $('body').on('mouseleave', '.my-button', buttonHoverExitEvent);
     })
     .catch((err) => console.error(err));
 };

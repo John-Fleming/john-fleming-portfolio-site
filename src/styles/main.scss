@@ -14,49 +14,80 @@
   padding: 0;
 }
 
-/* BODY STYLES */
+/* BODY STYLES & SPACING */
 
 body {
-  background-color: $dark;
   color: white;
   font-family: 'Raleway', sans-serif;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
 
-  #greeting, #bioPage, #technologiesPage, #projectsPage {
+  #greeting, #bioPage, #technologiesPage {
     height: 100vh;
     position: relative;
   }
 
-    .my-button {
-      background-color: $dark;
-      color: $green;
-      border: 3px solid $green;
-      border-radius: 0;
-      text-transform: uppercase;
-      font-size: 0.85em;
-      padding: 10px 20px;
-    }
+  .center-content {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  } 
+}
 
-  #cta {
-    height: 50vh;
-    position: relative;
-    // padding: 35% 0;
-    h3 {
-      margin-top: 35%;
-      font-size: 2.5em;
-      letter-spacing: .1em;
-    }
-    .contact-me-links img {
-      width: 2em;
-    }
-    .breaker {
-      border-top: 2px solid $green;
-      width: 40%;
-      margin: 0 auto;
-    }
+/* BACKGROUND COLORS */
+
+#greeting, #technologiesPage, #cta {
+  background-color: $dark;
+}
+
+#bioPage, #projectsPage {
+  // background-color: $off-dark;
+  background-color: $green;
+}
+
+/* BUTTON STYLES */
+
+.my-button {
+  background-color: $dark;
+  color: white;
+  border: 3px solid $green;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  padding: 10px 20px;
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
+
+.hover-state {
+  // background-color: $green;
+  background-color: $off-dark;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  .grow:hover { 
+  transform: scale(1.2); 
+  }
+
+/* CTA SECTION */ 
+
+#cta {
+  padding: 250px 0;
+  position: relative;
+  h3 {
+    font-size: 2.5em;
+    letter-spacing: .1em;
+  }
+  .contact-me-links img {
+    width: 2em;
+  }
+  .breaker {
+    border-top: 2px solid $green;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
 

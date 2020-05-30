@@ -20,20 +20,20 @@
   "project3" : {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/qWpEYfN.png",
-    "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the scores calculating when clicking buttons in each displayed quadrant.",
+    "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the calculated scores when clicking buttons in each displayed quadrant.",
     "technologiesUsed": "HTML, CSS, Sass, JavaScript, jQuery",
     "available": true,
     "url": "https://tamagotchi-ee100.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/tamagotchi"
   },
   "project4" : {
-    "title": "Spotify2",
-    "screenshot": "https://i.imgur.com/UDZCTez.png",
-    "description": "A better Spotify!",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": false,
-    "url": "https://www.spotify.com/",
-    "githubUrl": "https://github.com/John-Fleming/personal-bio-site"
+    "title": "React Sports Roster",
+    "screenshot": "https://i.imgur.com/njbJJdv.png",
+    "description": "This project was the first application I built using React. It displays a roster of players associated with an authenticated user and allows the user to perform full CRUD. Go Astros!",
+    "technologiesUsed": "React, JSX, Axios, Firebase",
+    "available": true,
+    "url": "https://sports-roster-dd495.firebaseapp.com",
+    "githubUrl": "https://github.com/John-Fleming/sports-roster"
   },
   "project5" : {
     "title": "Spotify3",

@@ -1,5 +1,9 @@
 @import '../../../styles/colors.scss';
 
+#projectsPage {
+  overflow: scroll;
+}
+
 .projects-heading {
   padding-top: 6%;
   h3 {
@@ -10,10 +14,9 @@
 .project-screenshot {
   max-width: 800px;
   margin: 0 auto;
-}
-
-.project-screenshot img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .project-description {
