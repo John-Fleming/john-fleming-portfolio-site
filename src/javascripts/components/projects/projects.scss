@@ -5,20 +5,20 @@
 }
 
 .projects-heading {
-  padding-top: 6%;
+  padding-top: 5%;
   h3 {
     @extend %subheader
   }
 }
 
-.project-screenshot {
-  max-width: 800px;
-  margin: 0 auto;
-  img {
-    width: 100%;
-  }
-}
+// .project-screenshot {
+//   max-width: 800px;
+//   margin: 0 auto;
+//   img {
+//     width: 100%;
+//   }
+// }
 
-.project-description {
-  font-size: 1.2em;
-}
+// .project-description {
+//   font-size: 1.2em;
+// }
