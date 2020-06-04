@@ -1,0 +1,52 @@
+@import '../../../styles/colors.scss';
+
+.project-card {
+  background-color: $dark;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.75);
+  text-align: center;
+  width: 80%;
+  p {
+    font-size: .9em;
+  }
+
+  .card-header {
+    border-bottom: none;
+    background-color: $dark;
+    color: $green;
+  }
+
+  .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .card-footer {
+    width: 100%;
+  
+    .tech-used {
+      background-color: #1F1A36;
+      text-align: center;
+      padding: 15px;
+    
+    }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+      
+        li {
+          border: 1px solid rgb(57, 55, 66);
+          border-radius: 2px;
+          display: inline-block;
+          font-size: .7em;
+          margin: 0 7px 7px 0;
+          padding: 7px;
+        }
+  }
+}
+  
+    

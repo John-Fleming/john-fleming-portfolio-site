@@ -1,12 +1,12 @@
 {
   "project1" : {
-    "title": "Chatty App",
-    "screenshot": "https://i.imgur.com/SBXfmqB.png",
-    "description": "The chatty app is a messaging app I contributed to for a group project at NSS. It allows a user to select who is sending a message, submit a new message, and perform specific actions such as liking and disliking messages, deleting messages, and selecting app styles.",
-    "technologiesUsed": "HTML, CSS, Bootstrap, Sass, JavaScript, jQuery",
+    "title": "React Sports Roster",
+    "screenshot": "https://i.imgur.com/4cs2NO7.png",
+    "description": "This project was the first application I built using React. It displays a roster of players associated with an authenticated user and allows the user to perform full CRUD. Go Astros!",
+    "technologiesUsed": "React, JSX, Axios, Firebase",
     "available": true,
-    "url": "https://chatty-app-5a503.firebaseapp.com",
-    "githubUrl": "https://github.com/John-Fleming/chatty-venus-fly-traps"
+    "url": "https://sports-roster-dd495.firebaseapp.com",
+    "githubUrl": "https://github.com/John-Fleming/sports-roster"
   },
   "project2" : {
     "title": "Pinterest Clone",
@@ -18,6 +18,15 @@
     "githubUrl": "https://github.com/John-Fleming/pinterest-clone"
   },
   "project3" : {
+    "title": "Chatty App",
+    "screenshot": "https://i.imgur.com/SBXfmqB.png",
+    "description": "The chatty app is a messaging app I contributed to for a group project at NSS. It allows a user to select who is sending a message, submit a new message, and perform specific actions such as liking and disliking messages, deleting messages, and selecting app styles.",
+    "technologiesUsed": "HTML, CSS, Bootstrap, Sass, JavaScript, jQuery",
+    "available": true,
+    "url": "https://chatty-app-5a503.firebaseapp.com",
+    "githubUrl": "https://github.com/John-Fleming/chatty-venus-fly-traps"
+  },
+  "project4" : {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/qWpEYfN.png",
     "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the calculated scores when clicking buttons in each displayed quadrant.",
@@ -25,15 +34,6 @@
     "available": true,
     "url": "https://tamagotchi-ee100.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/tamagotchi"
-  },
-  "project4" : {
-    "title": "React Sports Roster",
-    "screenshot": "https://i.imgur.com/njbJJdv.png",
-    "description": "This project was the first application I built using React. It displays a roster of players associated with an authenticated user and allows the user to perform full CRUD. Go Astros!",
-    "technologiesUsed": "React, JSX, Axios, Firebase",
-    "available": true,
-    "url": "https://sports-roster-dd495.firebaseapp.com",
-    "githubUrl": "https://github.com/John-Fleming/sports-roster"
   },
   "project5" : {
     "title": "Spotify3",
