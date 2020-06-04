@@ -12,6 +12,11 @@ const buttonHoverExitEvent = (e) => {
   $(targetedButton).removeClass('hover-state');
 };
 
+// const flipCard = (e) => {
+//   const targetedCard = e.target.closest('.card');
+//   $(targetedCard).css(transform: rotateY(180deg));
+// };
+
 const printProjects = () => {
   projectData.getProjects()
     .then((projects) => {
@@ -24,6 +29,7 @@ const printProjects = () => {
       utils.printToDom('projects', domString);
       $('body').on('mouseenter', '.my-button', buttonHoverEvent);
       $('body').on('mouseleave', '.my-button', buttonHoverExitEvent);
+      $('body').on('click', '.view-project-btn', flipCard);
     })
     .catch((err) => console.error(err));
 };
