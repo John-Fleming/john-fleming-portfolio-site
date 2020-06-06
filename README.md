@@ -3,20 +3,20 @@
 ## Description
 This project exists to showcase my developer portfolio and projects I have worked on during the course of learning to code. 
 
-The project features vanilla HTML, CSS, and Javascript, but also makes use of Bootstrap grid system and a carousel functionality for cycling through projects I've completed. The content for the carousel is printed to the DOM from a projects array in main.js and I am using a print to DOM function and projects builder function to push available projects into the carousel code. 
+I built the site using a combination of HTML, CSS, Bootstrap, SASS, and vanilla Javascript, but also utilized Firebase to store project data and made an Axios API call to read the project data. Each project was selected from group and individual assignments from the full stack developer program I participated in through Nashviille Software School. 
 
 ## Screenshots
-Home screen
+Home section
 ![home section view](./screenshots/home-view.png)
 
 Bio section
 ![bio section view](./screenshots/bio-view.png)
 
-Technologies screen
+Technologies section
 ![technologies section view](./screenshots/technologies-view.png)
 
-Projects carousel
-![projects section view](./screenshots/project-carousel.png)
+Portfolio section
+![projects section view](./screenshots/portfolio-view.png)
 
 ## How to Run
 1. Clone this repo
