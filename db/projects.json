@@ -1,14 +1,23 @@
 {
   "project1" : {
+    "title": "QuickFit",
+    "screenshot": "https://i.imgur.com/8VDInLx.png",
+    "description": "QuickFit is an exercise app that allows users to build and create customized, equipment free workout routines in as few as one click. I built this single page React app for my front end capstone project at NSS.",
+    "technologiesUsed": "JSX, Javascript, React, Bootstrap, Sass, Axios, Firebase",
+    "available": true,
+    "url": "https://front-end-capstone-b93f7.web.app/",
+    "githubUrl": "https://github.com/John-Fleming/quickfit-front-end-capstone"
+  },
+  "project2" : {
     "title": "React Sports Roster",
     "screenshot": "https://i.imgur.com/4cs2NO7.png",
     "description": "This project was the first application I built using React. It displays a roster of players associated with an authenticated user and allows the user to perform full CRUD. Go Astros!",
     "technologiesUsed": "React, JSX, Axios, Firebase",
-    "available": true,
+    "available": false,
     "url": "https://sports-roster-dd495.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/sports-roster"
   },
-  "project2" : {
+  "project3" : {
     "title": "Pinterest Clone",
     "screenshot": "https://i.imgur.com/vwwZVva.png",
     "description": "I built this Pinterest clone for an NSS class assignment in order to practice making Axios API calls to Firebase. Users first login using their Google accounts and then can create, delete, and update boards with individual pins related to their interests.",
@@ -17,7 +26,7 @@
     "url": "https://pinterest-clone-9f284.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/pinterest-clone"
   },
-  "project3" : {
+  "project4" : {
     "title": "Chatty App",
     "screenshot": "https://i.imgur.com/SBXfmqB.png",
     "description": "The chatty app is a messaging app I contributed to for a group project at NSS. It allows a user to select who is sending a message, submit a new message, and perform specific actions such as liking and disliking messages, deleting messages, and selecting app styles.",
@@ -26,7 +35,7 @@
     "url": "https://chatty-app-5a503.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/chatty-venus-fly-traps"
   },
-  "project4" : {
+  "project5" : {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/qWpEYfN.png",
     "description": "Modelled after the 90's Toy, the Tamagotchi project was a NSS class assignment to practice modular development and styling using Sass. Users can alter the calculated scores when clicking buttons in each displayed quadrant.",
@@ -34,14 +43,5 @@
     "available": true,
     "url": "https://tamagotchi-ee100.firebaseapp.com",
     "githubUrl": "https://github.com/John-Fleming/tamagotchi"
-  },
-  "project5" : {
-    "title": "Spotify3",
-    "screenshot": "https://i.imgur.com/UDZCTez.png",
-    "description": "This is my final form.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": false,
-    "url": "https://www.spotify.com/",
-    "githubUrl": "https://github.com/John-Fleming/personal-bio-site"
   }
 }
