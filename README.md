@@ -1,9 +1,9 @@
 # Personal Bio Site
 
 ## Description
-This project exists to showcase my developer portfolio and projects I have worked on during the course of learning to code. 
+This project exists to showcase the progression of my developer portfolio and projects built while learing to code. 
 
-I built the site using a combination of HTML, CSS, Bootstrap, SASS, and vanilla Javascript, but also utilized Firebase to store project data and made an Axios API call to read the project data. Each project was selected from group and individual assignments from the full stack developer program I participated in through Nashviille Software School. 
+I built the site using a combination of HTML, CSS, Bootstrap, SASS, and vanilla Javascript, hosted on Firebase. Each project was selected from group and individual assignments completed in the front end portion of the full stack developer program I participated in through Nashviille Software School. 
 
 ## Screenshots
 Home section
@@ -23,3 +23,6 @@ Portfolio section
 1. Make sure you have http-server installed via npm. If not get it [here](https://www.npmjs.com/package/http-server)
 1. On your command line, run `hs -p 9999`
 1. In your browser, go to `http://localhost:9999`
+
+## Deployed Link
+https://personal-bio-site-641ae.web.app/
